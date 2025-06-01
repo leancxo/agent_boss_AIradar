@@ -1,4 +1,17 @@
-browser-use
+# Agent Boss - AI Development Tool Supervisor
+# Core dependencies for browser automation and AI integration
+
+# Browser automation
+browser-use>=0.1.40
+playwright>=1.49.0
+
+# AI/LLM integration
+langchain-openai>=0.3.1
+openai>=1.68.2
+
+# Environment and configuration
 python-dotenv>=1.0.0
-langchain-openai
-playwright>=1.41.0 
+
+# Optional: For future AI platform integrations
+# langchain-anthropic  # For Claude integration
+# langchain-google-genai  # For additional Gemini features 
