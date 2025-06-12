@@ -46,12 +46,10 @@ cd my-project
 pip install -r requirements.txt
 playwright install
 
-# Add your OpenAI API key to .env file
-nano .env
 
-# Run your first task
-python agent_boss.py --task "Create a hello world HTML page" --ai gemini --validate --test
-```
+
+
+rld HTML page" --ai gemini --validate --test
 
 ### Option 2: Manual Setup
 ```bash
